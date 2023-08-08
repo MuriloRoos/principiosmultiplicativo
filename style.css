@@ -1,0 +1,82 @@
+:root{
+    --cor-fundo: #191A19;
+    --cor-texto: #1E5128;
+    --cor-texto-armas: #4E9F3D;
+    --padding-texto: 1rem 2rem 3rem 2rem;
+    --fonte-header: 1.5rem;
+    --fonte-texto: 0.8rem;
+    --fonte-armas: 0.5rem;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+header{
+    font-size: var(--fonte-header);
+    color: var(--cor-texto-armas);
+    font-weight: 600;
+    padding: 1rem;
+    margin-left: 4rem;
+}
+
+main{
+    font-size: var(--fonte-texto);
+    font-weight: 500;
+    line-height: 1rem;
+}
+
+
+main .content{
+    padding: var(--padding-texto);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.imagens_armas{
+    display: flex;
+    text-align: center;
+
+}
+
+.imagens_armas_itens{
+    padding: 0 1rem 0 1rem;
+}
+
+.imagens_armas img{
+    width: 4rem;
+}
+
+.imagens_armas p{
+    color: var(--cor-texto-armas);
+    font-size: var(--fonte-armas);
+    line-height: 0.7rem;
+
+}
+
+
+.resultado{
+    padding: var(--padding-texto);
+}
+
+.resultado_calculo{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0 1rem 0;
+}
+
+.resultado_calculo h3{
+    font-size: var(--fonte-header);
+    padding: 0 1rem 0.5rem 1rem;
+    border-bottom: 2px solid var(--cor-texto-armas);
+}
+
+.resultado span{
+    font-size: 1rem;
+    color: var(--cor-texto-armas);
+    border-bottom: 2px solid var(--cor-texto-armas);
+}
